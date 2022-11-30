@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "rootDirs": [
+      "src"
+    ],
+    "baseUrl": "src",
+    "outDir": "./build",
+    "esModuleInterop": true,
+    "strict": true
+  },
+  "include": ["src", ".env", ".env.example"],
+  "exclude": ["node_modules"]
+}
